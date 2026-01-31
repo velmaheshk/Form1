@@ -1,0 +1,10 @@
+<a routerLink="employeeform" routerLinkActive="active"  >Employee Form</a> |
+<a routerLink="about" routerLinkActive="active">About</a> |
+<a routerLink="contact" >Contact</a>|
+<button routerLink="/contact" (onClick)="getNextPage()">Contact</button>
+
+
+<router-outlet></router-outlet>
+<app-employeeform></app-employeeform>
+<app-contact></app-contact> 
+<app-about></app-about>

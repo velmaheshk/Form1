@@ -1,0 +1,29 @@
+<p>contact works!</p>
+
+<table>
+    <tr>
+        <th>
+            Id
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Place
+        </th>
+        <th>
+            District
+        </th>
+    </tr>
+    @for( n of data;track n.id ){
+    <tr>
+        <td>
+            {{n.id}}
+        </td>
+        <td>
+            {{n.name}}
+        </td>
+        <td>{{n.place}}</td>
+        <td>{{n.district}}</td>
+    </tr>}
+</table>
